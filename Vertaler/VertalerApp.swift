@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+// TODO
+let key = "secret"
+
 @main
-struct VertalerApp: App {
+struct VertalerApp: App {	
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+		.windowStyle(HiddenTitleBarWindowStyle())
     }
 }
